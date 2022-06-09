@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+.border-square {
+    border-radius: 0px;
+}
+
+.pixel-font {
+    font-family: 'VT323', monospace;
+}
+
+.font-size-64 {
+    font-size: 64px;
+}
+
+.font-size-84 {
+    font-size: 84px;
+}
+
+.font-size-100 {
+    font-size: 100px;
+}
+
+.font-size-120 {
+    font-size: 120px;
+}
+
+.box-sado-nav {
+    box-shadow: 6px 6px 0px #000;
+}
+
+.box-sado {
+    box-shadow: 6px 6px 0px #000;
+}
+
+.text-sado {
+    text-shadow: 6px 5px 1px #000000;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.space-h1 {
+    padding: 0%;
+}
+
+.carousel-caption-fram {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption-fram {
+    top: 145px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(206, 206, 206, 0.558);
+    width: 100%;
+    height: 600px;
+    z-index: 1;
+}
+
+.w-100 {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 900px) {
+    .font-size-100 {
+        font-size: 82px;
+    }
+    .font-size-120 {
+        font-size: 72px;
+    }
+    .carousel-caption-fram {
+        top: 0px;
+        height: 500px;
+    }
+    .box-sado-nav {
+        box-shadow: 0px 0px 0px #000;
+    }
+    .carousel-item {
+        height: 500px;
+    }
+}
+
+@media (max-width: 700px) {
+    .font-size-100 {
+        font-size: 42px;
+    }
+    .font-size-120 {
+        font-size: 32px;
+    }
+    .carousel-caption-fram {
+        top: 0px;
+        height: 250px;
+    }
+    .box-sado-nav {
+        box-shadow: 0px 0px 0px #000;
+    }
+    .carousel-item {
+        height: 250px;
+    }
+}
+
+@media (max-width: 280px) {
+    .font-size-100 {
+        font-size: 32px;
+    }
+    .carousel-caption-fram {
+        top: 0px;
+        height: 180px;
+    }
+    .box-sado-nav {
+        box-shadow: 0px 0px 0px #000;
+    }
+}
