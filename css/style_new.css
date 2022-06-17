@@ -39,6 +39,11 @@
     box-shadow: 6px 6px 0px #000;
 }
 
+
+/* .text-sado {
+    text-shadow: 3px 5px 1px #000000;
+} */
+
 .text-left {
     text-align: left;
 }
@@ -125,6 +130,10 @@
     height: 500px;
 }
 
+.height-texbox-400 {
+    height: 500px;
+}
+
 @media (max-width: 1300px) {
     .rarityPc {
         display: none;
@@ -165,12 +174,18 @@
     .box-sado-nav {
         box-shadow: 0px 0px 0px #000;
     }
+    /* .carousel-item {
+        height: 500px;
+    } */
     .rarityPc {
         display: none;
     }
     .rarityM {
         display: block;
     }
+    /* .Carousel-heigh {
+        height: 300px;
+    } */
 }
 
 @media (max-width: 700px) {
