@@ -134,6 +134,11 @@
     height: 500px;
 }
 
+.owl-prev,
+.owl-next {
+    margin-top: 60px;
+}
+
 @media (max-width: 1300px) {
     .rarityPc {
         display: none;
