@@ -278,7 +278,7 @@
         font-size: 42px;
     }
     .font-size-120 {
-        font-size: 32px;
+        font-size: 39px;
     }
     .carousel-caption-fram {
         top: 0px;
@@ -322,6 +322,9 @@
     }
     .font-size-100 {
         font-size: 33px;
+    }
+    .font-size-120 {
+        font-size: 38px;
     }
     .carousel-item {
         height: 400px;
