@@ -58,6 +58,14 @@
     border: 3px solid #000;
 }
 
+.box-blod-t-3 {
+    border-top: 3px solid #000;
+}
+
+.box-blod-b-3 {
+    border-bottom: 3px solid #000;
+}
+
 .box-blod-t-0 {
     border: 3px solid #000;
     border-top: 0px;
