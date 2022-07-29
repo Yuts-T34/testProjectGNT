@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body{
+    height: fit-content;
+    width: auto;
+}
 .border-square {
     border-radius: 0px;
 }
@@ -14,6 +18,11 @@
 .font-size-36 {
     font-size: 36px;
     font-weight: 700;
+}
+
+.font-size-56{
+    font-size: 56px;
+    font-weight: 600;
 }
 
 .font-size-64 {
@@ -106,7 +115,7 @@
 }
 
 .btn-center-header {
-    height: 230px;
+    height: fit-content;
     background-color: #ffffff;
     /* #f3f6ff */
 }
@@ -191,6 +200,7 @@
 }
 
 .btn-wave {
+    margin: 30px;
     animation: ripple 1500ms infinite;
 }
 
@@ -203,6 +213,19 @@
     }
 }
 
+.countdown-frame {
+    text-align: center;
+}
+
+.countdown {
+    display: inline-block;
+}
+  
+/* .countdown #days,#hours,#minutes,#seconds {
+    border: 1px solid black;
+    display: block;
+} */
+
 .bg-storyP {
     display: block;
 }
@@ -210,6 +233,250 @@
 .bg-storyM {
     display: none;
 }
+
+
+
+/* ---------------- roadmap.html show roadmap more ------------------------- */
+.shape-w{
+    width: 100%;
+    height: 100%;
+}
+.music-nft-content,
+.airdrop-nft-content,
+.gallery-nft-content,
+.merch-nft-content,
+.concert-nft-content,
+.event-nft-content,
+.showcase-nft-content,
+.dividend-nft-content,
+.token-nft-content,
+.cafe-nft-content,
+.excusive-nft-content,
+.community-nft-content{
+    position: absolute;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.music-nft-content{
+    left: 37%;
+    top: 2%;
+    width: 15%;
+}
+.music-nft-content:hover{
+    left: 36.6%;
+    top: 1.3%;
+    width: 16%;
+    transform: scale(1);
+    z-index: 3;
+}
+
+
+.airdrop-nft-content{
+    left: 18.7%;
+    top: 9.6%;
+    width: 15%;
+}
+.airdrop-nft-content:hover{
+    left: 18.1%;
+    top: 8.9%;
+    width: 16%;
+    transform: scale(1);
+    z-index: 3;
+ }
+
+
+.gallery-nft-content{
+    left: 57.7%;
+    top: 11.4%;
+    width: 15%;
+}
+.gallery-nft-content:hover{
+    left: 57%;
+    top: 10.7%;
+    width: 16%;
+    transform: scale(1);
+    z-index: 3;
+ }
+
+
+.merch-nft-content{
+    left: 21%;
+    top: 29.5%;
+    width: 15%;
+}
+.merch-nft-content:hover{
+    left: 20.6%;
+    top: 28.8%;
+    width: 16%;
+    transform: scale(1);
+    z-index: 3;
+}
+
+
+.concert-nft-content{
+    left: 66%;
+    top: 26.9%;
+    width: 15%;
+}
+.concert-nft-content:hover{
+    left: 65.5%;
+    top: 26.2%;
+    width: 16%;
+    transform: scale(1);
+    z-index: 3;
+}
+
+
+.event-nft-content{
+    left: 85.8%;
+    top: 34.7%;
+    width: 15%;
+}
+.event-nft-content:hover{
+    left: 85.2%;
+    top: 34%;
+    width: 16%;
+    transform: scale(1);
+    z-index: 3;
+}
+
+
+.showcase-nft-content{
+    left: 42.3%;
+    top: 41.7%;
+    width: 15%;
+}
+.showcase-nft-content:hover{
+    left: 41.8%;
+    top: 41%;
+    width: 16%;
+    transform: scale(1);
+    z-index: 3;
+}
+
+.dividend-nft-content{
+    left: 17.2%;
+    top: 44.3%;
+    width: 15%;
+}
+.dividend-nft-content:hover{
+    left: 16.7%;
+    top: 43.6%;
+    width: 16%;
+    transform: scale(1);
+    z-index: 3;
+}
+
+
+.token-nft-content{
+    left: 80.5%;
+    top: 48.2%;
+    width: 15%;
+}
+.token-nft-content:hover{
+    left: 80%;
+    top: 47.5%;
+    width: 16%;
+    transform: scale(1);
+    z-index: 3;
+}
+
+
+.cafe-nft-content{
+    left: 2.8%;
+    top: 66.6%;
+    width: 15%;
+}
+.cafe-nft-content:hover{
+    left: 2.3%;
+    top: 65.9%;
+    width: 16%;
+    transform: scale(1);
+    z-index: 3;
+}
+
+
+.excusive-nft-content{
+    left: 68.4%;
+    top: 59.5%;
+    width: 15%;
+}
+.excusive-nft-content:hover{
+    left: 67.9%;
+    top: 58.8%;
+    width: 16%;
+    transform: scale(1);
+    z-index: 3;
+}
+
+.community-nft-content{
+    left: 76.6%;
+    top: 75%;
+    width: 15%;
+}
+.community-nft-content:hover{
+    left: 76.1%;
+    top: 74.3%;
+    width: 16%;
+    transform: scale(1);
+    z-index: 3;
+}
+/* ------------------------------------ End show roadmap more. ------------------------------------- */
+
+/**/
+
+/* -------------------------------- Start box show data roadmap more -----------------------------*/
+
+.model-box-roadmap {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.model-content-roadmap{
+    background-color: #fefefe;
+    margin: 8% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+    height: fit-content;
+    animation-name: show_box;
+    animation-duration: 0.5s;
+    /* display: grid;
+    gap: 1;
+    grid-template-columns: 50% 50%; */
+    padding: 1rem;
+}
+
+.model-content-roadmap .model-right .top {
+    width: 100%;
+    justify-content: end;
+    display: flex;
+}
+
+.model-content-roadmap .model-right .top .close {
+    width: fit-content;
+    cursor: pointer;
+}
+@keyframes show_box {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+
 
 @media (max-width: 1300px) {
     .rarityPc {
@@ -232,6 +499,93 @@
         top: 70px;
         height: 270px;
     }
+    .music-nft-content,
+    .airdrop-nft-content,
+    .gallery-nft-content,
+    .merch-nft-content,
+    .concert-nft-content,
+    .event-nft-content,
+    .showcase-nft-content,
+    .dividend-nft-content,
+    .token-nft-content,
+    .cafe-nft-content,
+    .excusive-nft-content,
+    .community-nft-content{
+        transition: 0s;
+    }
+    .music-nft-content:hover{
+        left: 36.6%;
+        top: 1.3%;
+        width: 16%;
+        z-index: 0;
+    }
+    .airdrop-nft-content:hover{
+        left: 18.1%;
+        top: 8.9%;
+        width: 16%;
+        z-index: 0;
+    }
+    .gallery-nft-content:hover{
+        left: 57%;
+        top: 10.7%;
+        width: 16%;
+        z-index: 0;
+    }
+    .merch-nft-content:hover{
+        left: 20.6%;
+        top: 28.8%;
+        width: 16%;
+        z-index: 0;
+    }
+    .concert-nft-content:hover{
+        left: 65.5%;
+        top: 26.2%;
+        width: 16%;
+        z-index: 0;
+    }
+    .event-nft-content:hover{
+        left: 85.2%;
+        top: 34%;
+        width: 16%;
+        z-index: 0;
+    }
+    .showcase-nft-content:hover{
+        left: 41.8%;
+        top: 41%;
+        width: 16%;
+        z-index: 0;
+    }
+    .dividend-nft-content:hover{
+        left: 16.7%;
+        top: 43.6%;
+        width: 16%;
+        z-index: 0;
+    }
+    .token-nft-content:hover{
+        left: 80%;
+        top: 47.5%;
+        width: 16%;
+        z-index: 0;
+    }
+    .cafe-nft-content:hover{
+        left: 2.3%;
+        top: 65.9%;
+        width: 16%;
+        z-index: 0;
+    }
+    .excusive-nft-content:hover{
+        left: 67.9%;
+        top: 58.8%;
+        width: 16%;
+        z-index: 0;
+    }
+    .community-nft-content:hover{
+        left: 76.1%;
+        top: 74.3%;
+        width: 16%;
+        z-index: 0;
+    }
+
 }
 
 @media (max-width: 900px) {
@@ -265,11 +619,105 @@
         font-size: 32px;
         font-weight: 700;
     }
+    .font-size-32 {
+        font-size: 30px;
+        font-weight: 500;
+    }
     .bg-storyP {
         display: none;
     }
     .bg-storyM {
         display: block;
+    }
+    .font-size-56{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .music-nft-content,
+    .airdrop-nft-content,
+    .gallery-nft-content,
+    .merch-nft-content,
+    .concert-nft-content,
+    .event-nft-content,
+    .showcase-nft-content,
+    .dividend-nft-content,
+    .token-nft-content,
+    .cafe-nft-content,
+    .excusive-nft-content,
+    .community-nft-content{
+        transition: 0s;
+    }
+    .music-nft-content:hover{
+        left: 36.6%;
+        top: 1.3%;
+        width: 16%;
+        z-index: 0;
+    }
+    .airdrop-nft-content:hover{
+        left: 18.1%;
+        top: 8.9%;
+        width: 16%;
+        z-index: 0;
+    }
+    .gallery-nft-content:hover{
+        left: 57%;
+        top: 10.7%;
+        width: 16%;
+        z-index: 0;
+    }
+    .merch-nft-content:hover{
+        left: 20.6%;
+        top: 28.8%;
+        width: 16%;
+        z-index: 0;
+    }
+    .concert-nft-content:hover{
+        left: 65.5%;
+        top: 26.2%;
+        width: 16%;
+        z-index: 0;
+    }
+    .event-nft-content:hover{
+        left: 85.2%;
+        top: 34%;
+        width: 16%;
+        z-index: 0;
+    }
+    .showcase-nft-content:hover{
+        left: 41.8%;
+        top: 41%;
+        width: 16%;
+        z-index: 0;
+    }
+    .dividend-nft-content:hover{
+        left: 16.7%;
+        top: 43.6%;
+        width: 16%;
+        z-index: 0;
+    }
+    .token-nft-content:hover{
+        left: 80%;
+        top: 47.5%;
+        width: 16%;
+        z-index: 0;
+    }
+    .cafe-nft-content:hover{
+        left: 2.3%;
+        top: 65.9%;
+        width: 16%;
+        z-index: 0;
+    }
+    .excusive-nft-content:hover{
+        left: 67.9%;
+        top: 58.8%;
+        width: 16%;
+        z-index: 0;
+    }
+    .community-nft-content:hover{
+        left: 76.1%;
+        top: 74.3%;
+        width: 16%;
+        z-index: 0;
     }
 }
 
@@ -304,6 +752,92 @@
     }
     .Carousel-heigh {
         height: 600px;
+    }
+    .music-nft-content,
+    .airdrop-nft-content,
+    .gallery-nft-content,
+    .merch-nft-content,
+    .concert-nft-content,
+    .event-nft-content,
+    .showcase-nft-content,
+    .dividend-nft-content,
+    .token-nft-content,
+    .cafe-nft-content,
+    .excusive-nft-content,
+    .community-nft-content{
+        transition: 0s;
+    }
+    .music-nft-content:hover{
+        left: 36.6%;
+        top: 1.3%;
+        width: 16%;
+        z-index: 0;
+    }
+    .airdrop-nft-content:hover{
+        left: 18.1%;
+        top: 8.9%;
+        width: 16%;
+        z-index: 0;
+    }
+    .gallery-nft-content:hover{
+        left: 57%;
+        top: 10.7%;
+        width: 16%;
+        z-index: 0;
+    }
+    .merch-nft-content:hover{
+        left: 20.6%;
+        top: 28.8%;
+        width: 16%;
+        z-index: 0;
+    }
+    .concert-nft-content:hover{
+        left: 65.5%;
+        top: 26.2%;
+        width: 16%;
+        z-index: 0;
+    }
+    .event-nft-content:hover{
+        left: 85.2%;
+        top: 34%;
+        width: 16%;
+        z-index: 0;
+    }
+    .showcase-nft-content:hover{
+        left: 41.8%;
+        top: 41%;
+        width: 16%;
+        z-index: 0;
+    }
+    .dividend-nft-content:hover{
+        left: 16.7%;
+        top: 43.6%;
+        width: 16%;
+        z-index: 0;
+    }
+    .token-nft-content:hover{
+        left: 80%;
+        top: 47.5%;
+        width: 16%;
+        z-index: 0;
+    }
+    .cafe-nft-content:hover{
+        left: 2.3%;
+        top: 65.9%;
+        width: 16%;
+        z-index: 0;
+    }
+    .excusive-nft-content:hover{
+        left: 67.9%;
+        top: 58.8%;
+        width: 16%;
+        z-index: 0;
+    }
+    .community-nft-content:hover{
+        left: 76.1%;
+        top: 74.3%;
+        width: 16%;
+        z-index: 0;
     }
 }
 
@@ -342,6 +876,106 @@
         font-size: 26px;
         font-weight: 600;
     }
+    .font-size-32{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .font-size-56{
+        font-size: 26px;
+        font-weight: 600;
+    }
+    /* .model-content-roadmap{
+        display: block;
+        gap: 1;
+        grid-template-columns: 50% 50%;
+        padding: 1rem;
+    } */
+    .music-nft-content,
+    .airdrop-nft-content,
+    .gallery-nft-content,
+    .merch-nft-content,
+    .concert-nft-content,
+    .event-nft-content,
+    .showcase-nft-content,
+    .dividend-nft-content,
+    .token-nft-content,
+    .cafe-nft-content,
+    .excusive-nft-content,
+    .community-nft-content{
+        transition: 0s;
+    }
+    .music-nft-content:hover{
+        left: 36.6%;
+        top: 1.3%;
+        width: 16%;
+        z-index: 0;
+    }
+    .airdrop-nft-content:hover{
+        left: 18.1%;
+        top: 8.9%;
+        width: 16%;
+        z-index: 0;
+    }
+    .gallery-nft-content:hover{
+        left: 57%;
+        top: 10.7%;
+        width: 16%;
+        z-index: 0;
+    }
+    .merch-nft-content:hover{
+        left: 20.6%;
+        top: 28.8%;
+        width: 16%;
+        z-index: 0;
+    }
+    .concert-nft-content:hover{
+        left: 65.5%;
+        top: 26.2%;
+        width: 16%;
+        z-index: 0;
+    }
+    .event-nft-content:hover{
+        left: 85.2%;
+        top: 34%;
+        width: 16%;
+        z-index: 0;
+    }
+    .showcase-nft-content:hover{
+        left: 41.8%;
+        top: 41%;
+        width: 16%;
+        z-index: 0;
+    }
+    .dividend-nft-content:hover{
+        left: 16.7%;
+        top: 43.6%;
+        width: 16%;
+        z-index: 0;
+    }
+    .token-nft-content:hover{
+        left: 80%;
+        top: 47.5%;
+        width: 16%;
+        z-index: 0;
+    }
+    .cafe-nft-content:hover{
+        left: 2.3%;
+        top: 65.9%;
+        width: 16%;
+        z-index: 0;
+    }
+    .excusive-nft-content:hover{
+        left: 67.9%;
+        top: 58.8%;
+        width: 16%;
+        z-index: 0;
+    }
+    .community-nft-content:hover{
+        left: 76.1%;
+        top: 74.3%;
+        width: 16%;
+        z-index: 0;
+    }
 }
 
 @media (max-width: 280px) {
@@ -363,5 +997,91 @@
     }
     .storyP {
         display: none;
+    }
+    .music-nft-content,
+    .airdrop-nft-content,
+    .gallery-nft-content,
+    .merch-nft-content,
+    .concert-nft-content,
+    .event-nft-content,
+    .showcase-nft-content,
+    .dividend-nft-content,
+    .token-nft-content,
+    .cafe-nft-content,
+    .excusive-nft-content,
+    .community-nft-content{
+        transition: 0s;
+    }
+    .music-nft-content:hover{
+        left: 36.6%;
+        top: 1.3%;
+        width: 16%;
+        z-index: 0;
+    }
+    .airdrop-nft-content:hover{
+        left: 18.1%;
+        top: 8.9%;
+        width: 16%;
+        z-index: 0;
+    }
+    .gallery-nft-content:hover{
+        left: 57%;
+        top: 10.7%;
+        width: 16%;
+        z-index: 0;
+    }
+    .merch-nft-content:hover{
+        left: 20.6%;
+        top: 28.8%;
+        width: 16%;
+        z-index: 0;
+    }
+    .concert-nft-content:hover{
+        left: 65.5%;
+        top: 26.2%;
+        width: 16%;
+        z-index: 0;
+    }
+    .event-nft-content:hover{
+        left: 85.2%;
+        top: 34%;
+        width: 16%;
+        z-index: 0;
+    }
+    .showcase-nft-content:hover{
+        left: 41.8%;
+        top: 41%;
+        width: 16%;
+        z-index: 0;
+    }
+    .dividend-nft-content:hover{
+        left: 16.7%;
+        top: 43.6%;
+        width: 16%;
+        z-index: 0;
+    }
+    .token-nft-content:hover{
+        left: 80%;
+        top: 47.5%;
+        width: 16%;
+        z-index: 0;
+    }
+    .cafe-nft-content:hover{
+        left: 2.3%;
+        top: 65.9%;
+        width: 16%;
+        z-index: 0;
+    }
+    .excusive-nft-content:hover{
+        left: 67.9%;
+        top: 58.8%;
+        width: 16%;
+        z-index: 0;
+    }
+    .community-nft-content:hover{
+        left: 76.1%;
+        top: 74.3%;
+        width: 16%;
+        z-index: 0;
     }
 }
